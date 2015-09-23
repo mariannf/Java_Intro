@@ -1,0 +1,19 @@
+Purpose: This assignment is designed to demonstrate your
+understanding of arrays.
+Assignment Description:
+A small airline has just purchased a computer for its new automated reservations system.
+You have just been asked to program the new system. You are to write a Java application
+to assign seats on each flight of the airline's only plane.
+The seats on the plane will be numbered 0 through 9 to correspond to the indexes of the
+array. You should display a list of all available seats, then ask the user which seat s(he)
+wishes to reserve a seat on the plane. The application should assign the requested seat and
+display a message indicating the user's seat number. Continue assigning seats until all
+seats are filled.
+Your application should, of course never assign a seat that has already been assigned.
+When the plane is full, display a message stating that no seats are available The program
+should then stop execution.
+ Hints:
+Create an array to represent the 10 seats on the plane.
+Initialize all elements to 0 to indicate that no seats are taken.
+When a seat is filled, store another character other than 0 in that element.
+Continue looping through this process until all seats are assigned.

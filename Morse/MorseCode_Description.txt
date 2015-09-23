@@ -1,0 +1,45 @@
+/**
+Program Description: A Java program is to be created to produce Morse code. The Morse code assigns a
+series of dots and dashes to each letter of the alphabet, each digit, and a few special characters (such as
+period, comma, colon, and semicolon). In sound-oriented systems, the dot represents a short sound and the
+dash represents a long sound. Separation between words is indicated by a space, or, quite simply, the
+absence of a dot or dash. In a sound-oriented system, a space is indicated by a short period of time during
+which no sound is transmitted. The international version of the Morse code is stored in the data file Morse.txt.
+To process the program, the Morse code data file (Morse.txt) should be read and stored in memory for fast
+access to the code. Each letter of the alphabet has a Morse code equivalent. After the code table is stored, the
+user should be prompted for an English language sentence to be entered from the keyboard. This sentence
+should be encoded into Morse and displayed. One blank should be used to separate each Morse-coded letter
+and three blanks should be used to separate each Morse-coded word. The user should be allowed to continue
+with the process of entering a sentence and having it encoded until a sentinel value (0) is received.
+Input: The letters and their equivalents are stored in a data file named Morse.txt. Input will consist of the
+Morse.txt file and well as the sentences entered from the keyboard. The data file should be read and loaded
+into memory at the beginning of the program before the sentences can be read and encoded. Each line of the
+data file contains the letter of the alphabet followed by the code equivalent. The data file should be read and
+stored in an array for fast and easy access during the program duration. When a sentence is read from the
+keyboard, it can be translated from the data stored from the Morse code file.
+Sample of Morse.txt:
+A .-
+B -…
+C -.-.
+D -..
+E .
+.
+ .
+ .
+Z --..
+Output: Output will consist of the display of the original sentence and it Morse code equivalent.
+Requirements:
+ Create a driver (main) class named Morse.java.
+ Create a utility class named Translate.java which translates the sentences inputted from the user into
+Morse code.
+ You may design your utility class where you pass the entire sentence into its constructor or pass one
+character at a time. You may elect to do output from either the driver or utility class.
+ Include comments defining the purpose of the code.
+ Include a comment stating your name.
+ Use all Java conventions such as naming conventions and indentation.
+Hints:
+ In the beginning of the program, read the Morse.txt file and store the data items in parallel arrays.
+ When reading the data from the line, the next from the Scanner class can be used since the data items
+are String data type.
+ After the file is read and loaded into memory, the user can begin to enter the sentences to be coded.
+ Continue to process until the user has finished entering sentences.**/

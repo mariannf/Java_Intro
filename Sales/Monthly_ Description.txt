@@ -1,0 +1,19 @@
+/**
+Program Description: A Java program is to be created to do a monthly
+sales analysis for the Great Buy Company.
+To process the program, the programmer should read the file of Monthly sales amounts (Monthly.txt). It
+will be best to store this data in parallel arrays to ensure quick processing of the analysis. The
+programmer should produce a report giving the following statistics:
+ The total sales amount for the month
+ The average sales amount per salesman for the month
+ The lowest sales amount for the month along with that salesman’s name
+ The highest sales amount for the month along with that salesman’s name
+ A list of all salesmen selling more than the average amount
+ A list of all salesmen selling less than the average amount
+Ask for the name of the input file in the main programmer-defined class. This way the class can be
+reused to do analysis of other files.
+Input: The salesmen’s names and their monthly sales amount are stored in a file named Monthly.txt.
+Each line of the file contains a name and an amount of sales as shown below:
+Joe Smith 12000.89
+Ann Rodgers 20987.65
+Output: You may design your output as you think best but be sure to label all fields appropriately.**/

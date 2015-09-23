@@ -1,0 +1,38 @@
+/**
+Purpose: This assignment is designed to work with an array of objects.
+Assignment Description:
+A Java program to create tournament pairings is to be created. The team names along with
+their wins should be stored in an array of objects. The teams will be entered in the order
+of wins; that is most wins to least wins. To create the pairings, the first team in the array
+(the team with the best record) is matched with the last team in the array (the team with
+the worst record) to form the first game of the tournament. The process is repeated,
+matching the team with the next best record with the team with the next worst record to
+form the second game. The process continues until all teams have been paired. The number
+of teams to be paired will always be an even power of two. For example: the input would be
+4, 8, 16, 32 or 64 teams for testing.
+A driver class and a class to create the team object should be written. An array of objects
+ordered by team wins will be created as the input data is received, and then the pairings
+can be made as described above. The driver class should be named Tournament.
+Input: Sample Input Data: (This is only a sample. Data for testing will vary.)
+ The input data from the table above should be entered from the keyboard.
+Team name Wins
+UNCC 30
+GT 28
+UVA 25
+UAB 24
+UM 18
+GSU 16
+UGA 2
+UNC 1
+ ITCS 1215 Page 2
+ There can be varying numbers of teams entering the tournament, i.e. 4, 8, 16, 32 or
+64; therefore the sample input data will vary for testing purposes.
+ Output: Output is to consist of an ordered list of the original teams along with
+their number of wins and the first round pairings created in the class. Output can
+be formatted as you wish.
+Sample Output:
+Team pairings:
+ Game 1: UNCC vs. UNC
+Game 2: GT vs. UGA
+Game 3: UVA vs. GSU
+Game 4: UAB vs. UM**/

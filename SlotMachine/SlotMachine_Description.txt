@@ -1,0 +1,30 @@
+/**
+Objective: Work with classes as reusable code and random numbers.
+Instructions: A slot machine is a device that the user inserts money into and then
+pulls a lever (or presses a button). The slot machine then displays a set of random
+images. If two or more of the images match, the user wins an amount that the slot
+machine dispenses back to the user.
+Create a Java program that simulates a slot machine. When the program runs it
+should do the following:
+1. Asks the user to enter the amount of money he or she wishes to enter into
+the slot machine.
+2. Instead of displaying images, have the program display the name of the
+image. The program must randomly select a word from the following list:
+Cherries, Oranges, Plums, Bells, Melons, Bars
+To select a word, the program can generate a random number in the range of
+0 to 5. If the number is 0, the selected word is Cherries, if the number is 1,
+then the selected word is Oranges, and so forth. The program should
+randomly select a word from the list 3 times and display all 3 of the words.
+3. If none of the randomly selected words match, the program informs the
+user that he or she has won $0. If 2 of the words match, the program
+informs the user of the amount (2 times the amount entered) that he or she
+has won. If 3 of the words match, the program informs the user of the
+amount (3 times the amount entered) that he or she has won.
+4. The program asks if the user wants to play again. If so, these steps are
+repeated. If not, the program displays the total amount of money entered
+into the slot machine and the total amount won.
+You should create a main (driver) class and name it Slot.java. Additionally, you
+should create a programmer-defined class named Machine.java. The simulation of
+the slot machine (steps 2 through 3) should be coded in the Machine class. Step 4
+should be coded in the main class named Slot.java. You may code step 1 in either
+Slot.java or Machine.java depending on the way you design the program.**/
